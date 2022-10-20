@@ -1,0 +1,132 @@
+.aboutcontent {
+    padding: 4%;
+    font-size: 18px;
+    font-family: 'Varela Round', sans-serif;
+    
+}
+
+.col-sm-6 p .oc {
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 1;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.col-sm-6 p .oc {
+    color: #c50000;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.container .ovom {
+    text-align: center;
+    border: solid 2px #c50000;
+    background-color: #c50000;
+    border-radius: 20px;
+    color: #fff;
+    height: 40px;
+    padding: 5px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.headingg{
+    font-size: 25px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.abtcnt{
+    font-size: 19px;
+    padding-left: 2%;
+    font-family: 'Varela Round', sans-serif;
+}
+
+ul{
+    font-size: 19px;
+    list-style-type : square;
+    padding-left: 8%;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.ovcnt{
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.omcnt1{
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.omcnt2{
+    padding-left: 5%;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.omcnt3{
+    padding-left: 5%;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.omcnt4{
+    padding-left: 5%;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+
+#carousel-slider {
+    position: relative;
+  }
+  
+  #carousel-slider .carousel-indicators {
+    bottom: -25px;
+  }
+  
+  #carousel-slider .carousel-indicators li {
+    border: 1px solid #ffbd20;
+  }
+  
+  #carousel-slider a i {
+    border: 1px solid #777;
+    border-radius:50%;
+    font-size: 28px;
+    height: 50px;
+    padding: 8px;
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    color:#777;
+    font-family: 'Varela Round', sans-serif;
+  }
+  
+  #carousel-slider a i:hover {
+    background:#bfbfbf;
+    color:#fff;
+    border: 1px solid #bfbfbf;
+    font-family: 'Varela Round', sans-serif;
+  }
+  
+  #carousel-slider 
+  .carousel-control {
+    width:inherit;
+  }
+  
+  #carousel-slider .carousel-control.left i {
+    left:-25px
+  }
+  
+  #carousel-slider .carousel-control.right i {
+    right: -25px;
+  }
+  
+  #carousel-slider
+  .carousel-control.left, 
+  #carousel-slider
+  .carousel-control.right {
+    background: none;
+  }
+
+  .iconstext {
+    padding-left: 20%;
+}
+
+

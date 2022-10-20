@@ -1,0 +1,45 @@
+.op {
+    background-color: #ffffff;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.mppwbcs {
+    font-family: 'Varela Round', sans-serif;
+    height: 46%;
+    width: 31%;
+    font-size: 15px;
+    background-color: #cc0000;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.paptext{
+    font-size: 25px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+table{
+    font-size: 18px;
+    border: 1px solid #000000;
+    font-family: 'Varela Round', sans-serif;
+}
+
+tr{
+    border: 1px solid #000000;
+    font-family: 'Varela Round', sans-serif;
+}
+
+th
+{
+    border: 1px solid #000000;
+    font-family: 'Varela Round', sans-serif;
+}
+
+td
+{
+    border: 1px solid #000000;
+    font-family: 'Varela Round', sans-serif;
+}

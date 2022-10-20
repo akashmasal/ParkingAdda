@@ -1,0 +1,71 @@
+.faq-container {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+.content {
+    width: 80%;
+    padding: 0;
+    font-size: 17px;
+    background: rgb(246, 246, 246);
+    background: linear-gradient(180deg, rgba(246, 246, 246, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    margin: 0 auto;
+    border-radius: 20px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+summary {
+    font-size: 20px;
+    font-weight: bolder;
+    background: rgb(242, 242, 242);
+    background: linear-gradient(90deg, rgba(242, 242, 242, 1) 0%, rgba(251, 251, 251, 1) 100%);
+    color: #333;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    outline: none;
+    /* border-radius: 0.25rem; */
+    border: inset 2px rgb(131, 130, 130);
+    border-radius: 10px;
+    text-align: left;
+    cursor: pointer;
+    position: relative;
+    font-family: 'Varela Round', sans-serif;
+    
+}
+
+details>summary::after {
+    position: absolute;
+    content: "+";
+    font-size: 40px;
+    right: 20px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+details[open]>summary::after {
+    position: absolute;
+    content: "-";
+    right: 20px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+details>summary::-webkit-details-marker {
+    display: none;
+}
+
+details[open] summary~* {
+    animation: sweep .1s ease-in-out;
+}
+
+@keyframes sweep {
+    0% {
+        opacity: 0;
+        margin-top: -10px
+    }
+
+    100% {
+        opacity: 1;
+        margin-top: 0px
+    }
+}

@@ -32,13 +32,14 @@
                         </div>
                         <!--/.blog-item-->
 
-                        <h4><?php echo $this->pagination->create_links(); ?></h4>
+                        
                 <?php
                     }
                 } else {
                     echo "<h4>No Blogs Found....!!!</h4>";
                 }
                 ?>
+                <h4><?php echo $this->pagination->create_links(); ?></h4>
             </div>
             <!--/.col-md-8-->
 

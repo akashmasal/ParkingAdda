@@ -7,22 +7,22 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>ParkingAdda</title>
-    <link href="<?php echo base_url();?>assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="<?php echo base_url();?>assets/css/font-awesome.min.css" rel="stylesheet">
-    <link href="<?php echo base_url();?>assets/css/animate.min.css" rel="stylesheet">
-    <link href="<?php echo base_url();?>assets/css/prettyPhoto.css" rel="stylesheet">
-    <link href="<?php echo base_url();?>assets/css/main.css" rel="stylesheet">
-    <link href="<?php echo base_url();?>assets/css/footer.css" rel="stylesheet">
-    <link href="<?php echo base_url();?>assets/css/page-strip.css" rel="stylesheet">
-    <link href="<?php echo base_url();?>assets/css/responsive.css" rel="stylesheet">
-    <link href="<?php echo base_url();?>assets/css/faq.css" rel="stylesheet">
-    <link href="<?php echo base_url();?>assets/css/aboutus.css" rel="stylesheet">
-    <link href="<?php echo base_url();?>assets/css/ourplaces.css" rel="stylesheet">
-    <link rel="shortcut icon" href="<?php echo base_url();?>assets/images/ico/parkingaddafi.ico" sizes="16x16 32x32 72x72">
-    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo base_url();?>assets/images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo base_url();?>assets/images/ico/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url();?>assets/images/ico/favicon-16x16.png">
-    <link rel="manifest" href="<?php echo base_url();?>assets/images/ico/site.webmanifest">
+    <link href="<?php echo base_url(); ?>assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/css/animate.min.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/css/prettyPhoto.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/css/main.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/css/footer.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/css/page-strip.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/css/responsive.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/css/faq.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/css/aboutus.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/css/ourplaces.css" rel="stylesheet">
+    <link rel="shortcut icon" href="<?php echo base_url(); ?>assets/images/ico/parkingaddafi.ico" sizes="16x16 32x32 72x72">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo base_url(); ?>assets/images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo base_url(); ?>assets/images/ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url(); ?>assets/images/ico/favicon-16x16.png">
+    <link rel="manifest" href="<?php echo base_url(); ?>assets/images/ico/site.webmanifest">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
@@ -32,13 +32,18 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-X7J9ZDEY3B"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-X7J9ZDEY3B');
-</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-X7J9ZDEY3B"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-X7J9ZDEY3B');
+    </script>
 </head>
 <!--/head-->
 
@@ -74,24 +79,24 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="<?php echo base_url();?>"><img src="<?php echo base_url();?>assets/images/parkingaddalogo.png" title="www.parkingadda.com" alt="logo"></a>
+                    <a class="navbar-brand" href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>assets/images/parkingaddalogo.png" title="www.parkingadda.com" alt="logo"></a>
                 </div>
 
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li><a href="<?php echo base_url();?>">Home</a></li>
-                        <li><a href="<?php echo base_url();?>home/aboutus">About Us</a></li>
+                        <li><a href="<?php echo base_url(); ?>">Home</a></li>
+                        <li><a href="<?php echo base_url(); ?>home/aboutus">About Us</a></li>
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown">Services <i class="bi bi-caret-down-fill"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="<?php echo base_url();?>home/findaparkingslot">Find a parking slot</a></li>
-                                <li><a href="<?php echo base_url();?>home/rentandearn">Rent & Earn</a></li>
+                                <li><a href="<?php echo base_url(); ?>home/findaparkingslot">Find a parking slot</a></li>
+                                <li><a href="<?php echo base_url(); ?>home/rentandearn">Rent & Earn</a></li>
                             </ul>
                         </li>
-                        <li><a href="<?php echo base_url();?>home/ourplaces">Our Places</a></li>
-                        <li><a href="<?php echo base_url();?>blogs">Blogs</a></li>
-                        <li><a href="<?php echo base_url();?>home/contactus">Contact Us</a></li>
-                        <li><a href="<?php echo base_url();?>home/faq">FaQ's</a></li>
+                        <li><a href="<?php echo base_url(); ?>home/ourplaces">Our Places</a></li>
+                        <li><a href="<?php echo base_url(); ?>blogs">Blogs</a></li>
+                        <li><a href="<?php echo base_url(); ?>home/contactus">Contact Us</a></li>
+                        <li><a href="<?php echo base_url(); ?>home/faq">FaQ's</a></li>
                     </ul>
                 </div>
             </div>

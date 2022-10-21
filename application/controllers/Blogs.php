@@ -14,7 +14,7 @@ class Blogs extends CI_Controller
     {
         
         $config['base_url'] = 'http://localhost/PA/blogs/';
-        $config['per_page'] = 5;
+        $config['per_page'] = 3;
         $config['total_rows'] = $this->Blogs_Model->getCountOfBlogs();
         $this->pagination->initialize($config);
         $data['getAllBlogs'] = $this->Blogs_Model->getAllBlogs($config['per_page'],$this->uri->segment(3));

@@ -10,8 +10,13 @@ class Admin extends CI_Controller
 
     public function index()
     {
-        $data['page_load'] = "admin/dashboard";
-        $this->load->view("includes/admin/template",$data);
+        // if(empty($this->session->userdata("username"))){
+        //     redirect(base_url("admin/auth"));
+        // }
+        // else{
+            $data['page_load'] = "admin/dashboard";
+            $this->load->view("includes/admin/template",$data);
+        // }
     }
 }
 

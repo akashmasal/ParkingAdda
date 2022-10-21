@@ -20,6 +20,8 @@
     CKEDITOR.replace('blog_title');
     CKEDITOR.replace('blog_short_description');
     CKEDITOR.replace('blog_content');
+    CKEDITOR.replace('faq_title');
+    CKEDITOR.replace('faq_content');
 </script>
 <!-- jQuery -->
 <script src="<?php echo base_url(); ?>assets/dist/plugins/jquery/jquery.min.js"></script>

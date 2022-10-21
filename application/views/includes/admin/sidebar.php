@@ -58,6 +58,12 @@
                 <p>Places</p>
               </a>
             </li>
+            <li class="nav-item">
+              <a href="<?php echo base_url("admin/faq/getAllFaqs"); ?>" class="nav-link active">
+                <i class="nav-icon fa-sharp fa-solid fa-location-dot"></i>
+                <p>FaQ's</p>
+              </a>
+            </li>
             <!-- <li class="nav-item">
                   <a href="./index2.html" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>

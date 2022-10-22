@@ -44,24 +44,24 @@
                                             <!-- text input -->
                                             <div class="form-group">
                                                 <label>Blog Title</label>
-                                                <textarea class="form-control" rows="8" name="blog_title" id="blog_title" value="<?php echo $getBlogById->blog_title;?>" placeholder="Enter ..."></textarea>
+                                                <textarea class="form-control" rows="8" name="blog_title" id="blog_title"><?php echo $getBlogById->blog_title;?></textarea>
                                                 <span><b><?php echo form_error("blog_title"); ?></b></span>
                                             </div>
                                             <div class="form-group">
                                                 <label>Blog Short Description</label>
-                                                <textarea class="form-control" rows="8" name="blog_short_description" id="blog_short_description" placeholder="Enter ..."></textarea>
+                                                <textarea class="form-control" rows="8" name="blog_short_description" id="blog_short_description" placeholder="Enter ..."><?php echo $getBlogById->blog_short_description;?></textarea>
                                                 <span><b><?php echo form_error("blog_short_description"); ?></b></span>
                                             </div>
                                             <div class="form-group">
                                                 <label>Blog Content</label>
-                                                <textarea class="form-control" rows="8" name="blog_content" id="blog_content" placeholder="Enter ..."></textarea>
+                                                <textarea class="form-control" rows="8" name="blog_content" id="blog_content" placeholder="Enter ..."><?php echo $getBlogById->blog_content;?></textarea>
                                                 <span><b><?php echo form_error("blog_content"); ?></b></span>
                                             </div>
 
                                             <div class="form-group">
                                                 <label for="blog_image">Blog Image</label>
                                                 <br>
-                                                <input type="file" name="blog_image">
+                                                <input type="file" value="<?php echo $getBlogById->blog_image;?>" name="blog_image">
                                                 <span><b><?php echo form_error("blog_image"); ?></b></span>
                                             </div>
 

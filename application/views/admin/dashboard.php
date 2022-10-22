@@ -9,13 +9,7 @@
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <div class="content-header">
-      <?php
-      echo '<div class="alert alert-warning alert-dismissible fade show" role="alert">
-      <strong>' . $this->session->flashdata('success') . '</strong><button type="button" class="close" data-dismiss="alert" aria-label="Close">
-        <span aria-hidden="true">&times;</span>
-      </button>
-      </div>';
-      ?>
+      <h4 class="text-center"><?php echo $this->session->flashdata('success');?></h4>
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">

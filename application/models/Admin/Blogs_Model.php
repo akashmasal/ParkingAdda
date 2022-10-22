@@ -16,10 +16,24 @@ class Blogs_Model extends CI_Model
         }
     }
 
+    public function getBlogById($id)
+    {
+        $query = $this->db->select("*")
+            ->from("tbl_blogs")
+            ->where("blog_id", $id)
+            ->get()
+            ->row();
+        if ($query) {
+            return $query;
+        } else {
+            return false;
+        }
+    }
+
     public function addBlog($data)
     {
-        $query = $this->db->insert("tbl_blogs",$data);
-        if($query){
+        $query = $this->db->insert("tbl_blogs", $data);
+        if ($query) {
             return $query;
         } else {
             return false;

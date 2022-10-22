@@ -29,7 +29,7 @@
                                 <?php 
                                 if($this->session->flashdata("success"))
                                 {
-                                    
+                                    echo "<h4 class='text-center'>".$this->session->flashdata('success')."</h4>";
                                 }
                                 else
                                 {
@@ -43,15 +43,17 @@
                                 </div>
                                 <!-- /.card-header -->
                                 <!-- form start -->
-                                <form method="post" action="<?php echo base_url("admin/auth/login");?>">
+                                <form method="post" action="<?php echo base_url("login");?>">
                                     <div class="card-body">
                                         <div class="form-group">
                                             <label for="username">Username</label>
                                             <input type="text" class="form-control" name="username" id="username" placeholder="Enter Username">
+                                            <p><?php echo form_error('username'); ?></p>
                                         </div>
                                         <div class="form-group">
                                             <label for="Password">Password</label>
                                             <input type="password" class="form-control" name="password" id="password" placeholder="Enter Password">
+                                            <p><?php echo form_error('password'); ?></p>
                                         </div>
                                     </div>
                                     <!-- /.card-body -->

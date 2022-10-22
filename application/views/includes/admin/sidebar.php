@@ -46,20 +46,20 @@
           </a>
           <ul class="nav nav-treeview">
             <li class="nav-item">
-              <a href="<?php echo base_url("admin/blog/getAllBlogs"); ?>" class="nav-link active">
+              <a href="<?php echo base_url("blogss"); ?>" class="nav-link active">
                 <i class="nav-icon fa-solid fa-book-bookmark"></i>
                 <p>Blogs</p>
               </a>
             </li>
 
             <li class="nav-item">
-              <a href="<?php echo base_url(); ?>admin" class="nav-link active">
+              <a href="<?php echo base_url("Places"); ?>admin" class="nav-link active">
                 <i class="nav-icon fa-sharp fa-solid fa-location-dot"></i>
                 <p>Places</p>
               </a>
             </li>
             <li class="nav-item">
-              <a href="<?php echo base_url("admin/faq/getAllFaqs"); ?>" class="nav-link active">
+              <a href="<?php echo base_url("Faqs"); ?>" class="nav-link active">
                 <i class="nav-icon fa-sharp fa-solid fa-location-dot"></i>
                 <p>FaQ's</p>
               </a>

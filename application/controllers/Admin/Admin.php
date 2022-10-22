@@ -1,22 +1,19 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Admin extends CI_Controller
-{
+class Admin extends CI_Controller{
     public function __construct()
     {
         parent::__construct();
+        if($this->session->userdata("username") == ""){
+            redirect(base_url("admin/auth"));
+        }
     }
 
-    public function index()
+    public function dashboard()
     {
-        // if(empty($this->session->userdata("username"))){
-        //     redirect(base_url("admin/auth"));
-        // }
-        // else{
-            $data['page_load'] = "admin/dashboard";
-            $this->load->view("includes/admin/template",$data);
-        // }
+        $data['page_title'] = "Admin Dashboard";
+        $data['page_load'] = "admin/dashboard";
+        $this->load->view("includes/admin/template",$data);
     }
 }
 

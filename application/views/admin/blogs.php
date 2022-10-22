@@ -50,7 +50,14 @@
                                                 <td><?php echo $blogs->blog_short_description; ?></td>
                                                 <td><?php echo $blogs->blog_created_date; ?></td>
                                                 <td><?php echo $blogs->blog_category; ?></td>
-                                                <td><i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash"></i></td>
+                                                <td>
+                                                    <a style="color:green; font-size:20px" href="<?php echo base_url("admin/blog/updateBlogView/" . $blogs->blog_id); ?>">
+                                                        <i class="fa-solid fa-pen-to-square"></i>
+                                                    </a>
+                                                    <a style="color:red; font-size:20px" href="<?php echo base_url("admin/blog/deleteBlog/" . $blogs->blog_id); ?>">
+                                                        <i class="fa-solid fa-trash"></i>
+                                                    </a>
+                                                </td>
                                             </tr>
                                         </tbody>
                                     <?php

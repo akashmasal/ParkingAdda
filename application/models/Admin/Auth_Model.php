@@ -2,7 +2,7 @@
 
 class Auth_Model extends CI_Model
 {
-    public function login($username,$password)
+    public function checkLogin($username,$password)
     {
         $query = $this->db->select("*")
                           ->from("tbl_users")

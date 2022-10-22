@@ -17,6 +17,8 @@ class Blogs_Model extends CI_Model
         }
     }
 
+    
+
 
     public function getCountOfBlogs()
     {
